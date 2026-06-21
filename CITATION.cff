@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Certified Runge–Kutta order conditions over rooted trees, machine-checked in Lean 4"
+authors:
+  - family-names: "Marín Muñoz"
+    given-names: "Carles"
+    orcid: "https://orcid.org/0009-0007-5637-9688"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/karlesmarin/runge-kutta-order-conditions-lean"
+keywords:
+  - "Runge–Kutta order conditions"
+  - "Butcher group"
+  - "B-series"
+  - "rooted trees"
+  - "Connes–Kreimer Hopf algebra"
+  - "Lean 4"
+  - "Mathlib"
+  - "formal verification"
+doi: 10.5281/zenodo.20787666
+preferred-citation:
+  type: article
+  title: "What Order a Method Knows: certified Runge–Kutta order conditions over rooted trees, machine-checked in Lean 4"
+  authors:
+    - family-names: "Marín Muñoz"
+      given-names: "Carles"
+      orcid: "https://orcid.org/0009-0007-5637-9688"
+  year: 2026
+  doi: 10.5281/zenodo.20787666
