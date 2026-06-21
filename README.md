@@ -62,6 +62,34 @@ This is the applied payoff of the rooted-tree Hopf-algebra formalization:
 The elementary weight Φ is a *character* of that Hopf algebra; order *p* ⟺ Φ and the exact flow
 (t ↦ 1/γ(t)) agree on trees of order ≤ *p*.
 
+## References — the two worlds this joins
+
+One Hopf algebra of rooted trees governs two very different subjects. In **numerical analysis** it is
+the Butcher group of Runge–Kutta methods, and its characters are the order conditions certified in this
+repository. In **quantum field theory** it is the Connes–Kreimer algebra whose coproduct organizes the
+subtraction of subdivergences in BPHZ renormalization. Brouder made the dictionary explicit: a
+Runge–Kutta step and a renormalized Feynman amplitude are computed by the *same* algebra on the *same*
+trees. This development is the machine-checked numerical-analysis end of that bridge — and its companion
+([How a Tree Remembers Its Cuts](https://doi.org/10.5281/zenodo.20762280)) is the Hopf-algebra end.
+
+**Numerical analysis (the order theory).**
+- J. C. Butcher, *Coefficients for the study of Runge–Kutta integration processes*, J. Austral. Math.
+  Soc. **3** (1963) 185. DOI [10.1017/s1446788700027932](https://doi.org/10.1017/s1446788700027932).
+- E. Hairer, C. Lubich, G. Wanner, *Geometric Numerical Integration*, Springer (2006). DOI
+  [10.1007/3-540-30666-8](https://doi.org/10.1007/3-540-30666-8).
+
+**Quantum field theory & the Hopf algebra (the other shore).**
+- A. Connes, D. Kreimer, *Hopf algebras, renormalization and noncommutative geometry*, Comm. Math.
+  Phys. **199** (1998) 203. DOI [10.1007/s002200050499](https://doi.org/10.1007/s002200050499).
+- L. Foissy, *Les algèbres de Hopf des arbres enracinés décorés, I*, Bull. Sci. Math. **126** (2002)
+  193. DOI [10.1016/s0007-4497(02)01108-9](https://doi.org/10.1016/s0007-4497(02)01108-9) — the planar
+  (noncommutative) algebra formalized in the companion.
+
+**The bridge.**
+- C. Brouder, *Runge–Kutta methods and renormalization*, Eur. Phys. J. C **12** (2000) 521. DOI
+  [10.1007/s100529900235](https://doi.org/10.1007/s100529900235) — the explicit dictionary between the
+  two worlds.
+
 ## License & citation
 
 Code: Apache-2.0. Paper PDFs: CC-BY-4.0. See `CITATION.cff`.
